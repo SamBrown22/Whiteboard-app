@@ -30,3 +30,16 @@ Enabling it to receive communication and broadcast signals to the other users.
 
 <br/>
 <br/>
+
+## Installing
+To install you should make your way into both the server directory and ui directory and run the following command.
+### `npm install`
+This commmand will install all of the dependencies required for the application to run.
+
+<br/>
+
+## Running the application
+In order to run the application both the ui directory and server directory should be run with 
+### `npm start`
+this will start the server which handles sockets and Database retrieval and upload, and will start the ui frontend which handles all the logic and provided the interface.
+
